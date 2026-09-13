@@ -107,7 +107,7 @@
     align-items: center;
 }
 
-.field input, 
+.field input,
 .field select {
     border: none;
     width: 100%;
@@ -200,7 +200,7 @@
 }
 
 
-.start{
+.start {
     width: 100%;
     background-color: #4640DE;
     display: flex;
@@ -209,14 +209,16 @@
     height: 100vh;
     padding: 72px 124px;
 }
-.start-title{
+
+.start-title {
     width: 364px;
     height: 26px;
     color: #fff;
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.start-btn{
+
+.start-btn {
     padding: 12px 24px;
     color: #4640de;
     background-color: #ffffff;
@@ -349,16 +351,13 @@
 
 
 
-/* ==========================================
-   RESPONSIVE MEDIA QUERIES
-   ========================================== */
 
-/* 1. Katta ekran va noutbuklar (1200px gacha) */
 @media screen and (max-width: 1200px) {
-    .navbar, 
-    .brands, 
-    .categories, 
-    .categoriestwo, 
+
+    .navbar,
+    .brands,
+    .categories,
+    .categoriestwo,
     .footer {
         padding-left: 60px;
         padding-right: 60px;
@@ -379,7 +378,7 @@
     }
 }
 
-/* 2. Planshetlar (992px gacha) */
+
 @media screen and (max-width: 992px) {
     .navbar {
         padding: 0 40px;
@@ -397,7 +396,7 @@
         padding: 8px 24px;
     }
 
-    /* Hero section */
+
     .hero {
         flex-direction: column;
         padding: 40px 40px 0;
@@ -420,7 +419,7 @@
         height: auto;
     }
 
-    /* Brands */
+   
     .brands {
         padding: 30px 40px;
     }
@@ -431,8 +430,8 @@
         justify-content: center;
     }
 
-    /* Categories */
-    .categories, 
+   
+    .categories,
     .categoriestwo {
         padding: 40px;
     }
@@ -451,7 +450,7 @@
         height: auto;
     }
 
-    /* Start Banner */
+   
     .start {
         flex-direction: column;
         padding: 40px;
@@ -468,7 +467,7 @@
         height: auto;
     }
 
-    /* Footer */
+ 
     .footer {
         padding: 40px 40px 20px;
     }
@@ -483,7 +482,7 @@
     }
 }
 
-/* 3. Kichik planshet va katta telefonlar (768px gacha) */
+
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -526,12 +525,13 @@
     }
 }
 
-/* 4. Mobil telefonlar (480px gacha) */
+
 @media screen and (max-width: 480px) {
-    .navbar, 
-    .brands, 
-    .categories, 
-    .categoriestwo, 
+
+    .navbar,
+    .brands,
+    .categories,
+    .categoriestwo,
     .footer {
         padding-left: 20px;
         padding-right: 20px;
@@ -563,9 +563,3 @@
         width: 100%;
     }
 }
-
-
-
-
-
-
