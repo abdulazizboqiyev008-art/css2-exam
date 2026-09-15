@@ -529,159 +529,46 @@
 
 
 
-
-@media screen and (max-width: 1200px) {
-
-    .navbar,
-    .brands,
-    .categories,
-    .categoriestwo,
-    .footer {
-        padding-left: 60px;
-        padding-right: 60px;
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        padding: 0 20px;
+        height: 70px;
     }
 
+
+
+    
     .hero {
-        padding: 40px 60px 0;
+        display: flex;
+        flex-direction: column;
         gap: 40px;
+        padding: 30px 20px 0;
     }
 
-    .categories-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .start {
-        padding: 60px 80px;
+    .hero-left img {
+        max-width: 100%;
         height: auto;
     }
-}
 
-
-@media screen and (max-width: 992px) {
-    .navbar {
-        padding: 0 40px;
-    }
-
-    .navbar-nav {
-        gap: 20px;
-    }
-
-    .nav-list {
-        gap: 20px;
-    }
-
-    .nav-btn {
-        padding: 8px 24px;
-    }
-
-
-    .hero {
-        flex-direction: column;
-        padding: 40px 40px 0;
-        align-items: center;
-        text-align: center;
+    .left-title {
+        font-size: 36px;
     }
 
     .left-subtitle {
         width: 100%;
-        max-width: 521px;
+        font-size: 16px;
+        margin: 15px 0 20px;
     }
 
-    .search-box {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .right-img {
-        max-width: 100%;
-        height: auto;
-    }
-
-
-    .brands {
-        padding: 30px 40px;
-    }
-
-    .brands-logos {
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-    }
-
-
-    .categories,
-    .categoriestwo {
-        padding: 40px;
-    }
-
-    .categories-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .categories-gridtwo {
-        grid-template-columns: 1fr;
-    }
-
-    .categories-grid img,
-    .categories-gridtwo img {
-        width: 100%;
-        height: auto;
-    }
-
-
-    .start {
-        flex-direction: column;
-        padding: 40px;
-        gap: 30px;
-        text-align: center;
-    }
-
-    .start-title {
-        width: 100%;
-    }
-
-    .start-right img {
-        max-width: 100%;
-        height: auto;
-    }
-
-
-    .footer {
-        padding: 40px 40px 20px;
-    }
-
-    .footer-top {
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-
-    .subscribe-col {
-        max-width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-        gap: 15px;
-    }
-
-    .nav-list {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .nav-btns {
-        width: 100%;
-        justify-content: center;
+    .left-btn {
+        font-size: 14px;
     }
 
     .search-box {
         flex-direction: column;
-        width: 100%;
+        gap: 12px;
+        padding: 15px;
     }
 
     .field {
@@ -692,52 +579,88 @@
         width: 100%;
     }
 
+    .right-img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* Brands */
+    .brands {
+        padding: 30px 20px;
+    }
+
+    .brands-logos {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    /* Categories */
+    .categories {
+        padding: 40px 20px;
+    }
+
     .categories-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    /* Start Section */
+    .start {
+        height: auto;
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .start-title {
+        width: 100%;
+        height: auto;
+    }
+
+    .start-right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Jobs */
+    .jobs {
+        padding: 40px 20px;
+    }
+
+    .jobs-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    /* Latest Jobs */
+    .latest-jobs {
+        padding: 40px 20px;
+    }
+
+    .latest-jobs-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .subscribe-col {
+        max-width: 100%;
     }
 
     .footer-bottom {
         flex-direction: column;
         gap: 15px;
         text-align: center;
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-
-    .navbar,
-    .brands,
-    .categories,
-    .categoriestwo,
-    .footer {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .hero {
-        padding: 20px 20px 0;
-    }
-
-    .nav-btns {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-btn {
-        width: 100%;
-    }
-
-    .start {
-        padding: 30px 20px;
-    }
-
-    .subscribe-box {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .subscribe-box button {
-        width: 100%;
     }
 }
