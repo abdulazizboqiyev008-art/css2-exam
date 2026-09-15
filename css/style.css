@@ -530,20 +530,21 @@
 
 
 @media screen and (max-width: 768px) {
-    /* Navbar */
+    
     .navbar {
         padding: 0 20px;
         height: 70px;
     }
 
-
-
+    .navbar-nav {
+        display: none;
+    }
     
     .hero {
         display: flex;
         flex-direction: column;
         gap: 40px;
-        padding: 30px 20px 0;
+        padding: 30px 20px;
     }
 
     .hero-left img {
@@ -558,7 +559,7 @@
     .left-subtitle {
         width: 100%;
         font-size: 16px;
-        margin: 15px 0 20px;
+        margin: 15px 20px;
     }
 
     .left-btn {
@@ -584,7 +585,7 @@
         max-width: 350px;
     }
 
-    /* Brands */
+    
     .brands {
         padding: 30px 20px;
     }
@@ -595,7 +596,7 @@
         justify-content: center;
     }
 
-    /* Categories */
+    
     .categories {
         padding: 40px 20px;
     }
@@ -605,7 +606,7 @@
         gap: 16px;
     }
 
-    /* Start Section */
+
     .start {
         height: auto;
         flex-direction: column;
@@ -624,7 +625,7 @@
         height: auto;
     }
 
-    /* Jobs */
+    
     .jobs {
         padding: 40px 20px;
     }
@@ -634,7 +635,7 @@
         gap: 16px;
     }
 
-    /* Latest Jobs */
+    
     .latest-jobs {
         padding: 40px 20px;
     }
@@ -644,7 +645,7 @@
         gap: 16px;
     }
 
-    /* Footer */
+    
     .footer {
         padding: 40px 20px 20px;
     }
